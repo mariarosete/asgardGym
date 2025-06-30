@@ -81,25 +81,41 @@ Puedes acceder con los siguientes usuarios precargados:
 
 ## 📱 Capturas de pantalla
 
-### 🏋️ Iniciar sesión
+### 🔐 Iniciar sesión
 ![InicioSesion](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Login.png?raw=true)  
 
-### 🏋️ Inicio y navegación  
-![Inicio](https://github.com/mariarosete/asgardGym/blob/main/screenshots/01_inicio.png?raw=true)  
-![Menú](https://github.com/mariarosete/asgardGym/blob/main/screenshots/02_menu.png?raw=true)
+### 🏋️ Inicio y navegación
+![Inicio](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Pantalla_Principal.png?raw=true)  
+![Menú](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Menu.png?raw=true)
 
 ### 📅 Agenda de actividades  
-![Agenda](https://github.com/mariarosete/asgardGym/blob/main/screenshots/03_agenda.png?raw=true)
+![Agenda](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Agenda.png?raw=true)
+![Agenda](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Agenda_Actividades.png?raw=true)
+
+### 🔎 Filtrado de actividades
+![Filtrado](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Filtro.png?raw=true)
 
 ### 📋 Detalles y reservas  
-![Detalle](https://github.com/mariarosete/asgardGym/blob/main/screenshots/04_detalle.png?raw=true)  
-![Reserva](https://github.com/mariarosete/asgardGym/blob/main/screenshots/05_reserva.png?raw=true)
+![Detalle](https://github.com/mariarosete/asgardGym/blob/main/screenshots/DEtalles.png?raw=true)  
 
 ### 📚 Mis reservas  
-![Reservas](https://github.com/mariarosete/asgardGym/blob/main/screenshots/06_misreservas.png?raw=true)
+![Reserva](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Reservas.png?raw=true)
 
-### 👤 Perfil de usuario  
-![Perfil](https://github.com/mariarosete/asgardGym/blob/main/screenshots/07_perfil.png?raw=true)
+### 👤 Perfil de usuario
+![Usuario](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Usuario.png?raw=true)
+![Usuario](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Detalles_Usuario.png?raw=true)
+
+### ❓ Sección de ayuda
+![Usuario](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Ayuda.png?raw=true)
+
+### 👤 Panel de administración 
+![Admin](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Panel_Admin.png?raw=true)
+![Admin](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Crud_Actividades.png?raw=true)
+![Admin](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Actividad.png?raw=true)
+![Admin](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Crear_Usuario.png?raw=true)
+
+### 📜 Histórico
+![Historico](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Historico.png?raw=true)
 
 ---
 
