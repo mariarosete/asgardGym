@@ -1,0 +1,33 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+skinparam usecase {
+  BackgroundColor #ADD8E6
+  BorderColor Black
+}
+
+actor Usuario
+actor Administrador
+actor Sistema
+
+Usuario --> (Iniciar sesión)
+Usuario --> (Ver Agenda Semanal)
+Usuario --> (Filtrar Actividades)
+Usuario --> (Ver Detalles Actividad)
+Usuario --> (Reservar Clase)
+Usuario --> (Cancelar Reserva)
+Usuario --> (Ver Mis Reservas)
+Usuario --> (Editar Perfil)
+
+Administrador --> (Gestionar Usuarios)
+Administrador --> (Gestionar Actividades)
+Administrador --> (Gestionar Reservas)
+
+Sistema --> (Actualizar disponibilidad)
+Sistema --> (Validar reserva)
+Sistema --> (Enviar notificación)
+
+(Reservar Clase) ..> (Validar reserva) : <<include>>
+(Reservar Clase) ..> (Actualizar disponibilidad) : <<include>>
+
+@enduml

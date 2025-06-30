@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+skinparam backgroundColor #ffffff
+skinparam usecase {
+    BackgroundColor #B3DDF2
+    BorderColor Black
+    ArrowColor Black
+}
+
+actor Usuario
+actor Sistema
+
+Usuario --> (Ver Agenda Semanal)
+Usuario --> (Ver Detalles Actividad)
+Usuario --> (Reservar Actividad)
+
+(Reservar Actividad) ..> (Validar reserva) : <<include>>
+(Reservar Actividad) ..> (Actualizar disponibilidad) : <<include>>
+(Actualizar disponibilidad) ..> (Enviar notificación) : <<include>>
+
+Sistema --> (Validar reserva)
+Sistema --> (Actualizar disponibilidad)
+Sistema --> (Enviar notificación)
+
+@enduml

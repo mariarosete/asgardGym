@@ -1,0 +1,61 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#F9F9F9"
+    android:elevation="2dp"
+    android:layout_margin="8dp"
+    android:backgroundTint="#EEEEEE"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="#000000"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/txtAccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:paddingBottom="2dp" />
+
+
+    <TextView
+        android:id="@+id/txtActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#555555"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#555555"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/txtDni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#555555"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/txtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#333333" />
+</LinearLayout>

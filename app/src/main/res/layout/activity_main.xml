@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- Toolbar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tbMenu"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title=""
+            app:titleTextColor="@android:color/white"
+            app:menu="@menu/menu_principal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp">
+
+                <ImageView
+                    android:id="@+id/logoInicio"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/logo"
+                    android:contentDescription="@string/logo" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/asgard_gym"
+                    android:contentDescription="Asgard Gym" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/btnUsuario"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@null"
+                    android:src="@drawable/usuario"
+                    android:contentDescription="@string/mi_perfil" />
+
+                <ImageButton
+                    android:id="@+id/btnAyuda"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@null"
+                    android:src="@drawable/ayuda"
+                    android:contentDescription="@string/ayuda" />
+
+                <ImageButton
+                    android:id="@+id/btnMenu"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@null"
+                    android:src="@drawable/baseline_menu_24"
+                    android:contentDescription="Abrir menú" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Contenido -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:gravity="top|center_horizontal"
+        android:paddingTop="24dp"
+        android:paddingBottom="16dp">
+
+        <!-- Carrusel  -->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPagerActividades"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:paddingStart="36dp"
+            android:paddingEnd="36dp"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:overScrollMode="never" />
+
+        <!-- Botón -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnVerAgenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="18dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/ver_agenda"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:backgroundTint="@color/black"
+            app:cornerRadius="24dp"
+            app:iconPadding="12dp"
+            app:elevation="6dp" />
+
+        <!-- Imagen -->
+        <ImageView
+            android:id="@+id/imgFilosofia"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/rounded_image"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/portada"
+            android:contentDescription="@string/nuestra_filosof_a"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:clipToOutline="true" />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

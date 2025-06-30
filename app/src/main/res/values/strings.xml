@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Asgard_Gym</string>
+    <string name="agenda_de_actividades">Agenda de Actividades</string>
+    <string name="mis_reservas">Mis Reservas</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="logo_del_gimnasio">Logo del Gimnasio</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="logo_asgard_gym">Logo Asgard Gym</string>
+    <string name="t_tulo_asgard_gym">Título Asgard Gym</string>
+    <string name="icono">Icono</string>
+    <string name="imagen_de_la_actividad">Imagen de la actividad</string>
+    <string name="reservar_plaza">RESERVAR PLAZA</string>
+    <string name="completa">COMPLETA</string>
+    <string name="logo">Logo</string>
+    <string name="icono_monitor">Icono monitor</string>
+    <string name="icono_tipo">Icono tipo</string>
+    <string name="foto_de_perfil">Foto de perfil</string>
+    <string name="editar_perfil">Editar perfil</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="icono_resumen">Icono resumen</string>
+    <string name="resumen_de_actividad">Resumen de actividad</string>
+    <string name="reservas_realizadas_0">• Reservas realizadas: 0</string>
+    <string name="imagen_actividad">Imagen actividad</string>
+    <string name="nombre_actividad">Nombre Actividad</string>
+    <string name="lunes_10_00">Lunes - 10:00</string>
+    <string name="reservado_el_2025_04_15_13_42">Reservado el: 2025-04-15 13:42</string>
+    <string name="eliminar_reserva">Eliminar reserva</string>
+    <string name="anterior">Anterior</string>
+    <string name="semana">Semana</string>
+    <string name="siguiente">Siguiente</string>
+
+
+    <string name="texto_tarjeta"><![CDATA[
+    <p>Nos gusta denominarnos como un gimnasio de barrio. Lejos de ser un término peyorativo, le concede una seña de identidad. Rodeados de cadenas de gimnasios, ofrecemos un trato personal e individualizado.</p>
+    <p>Perseguimos crear afición al ejercicio físico y que sea un hábito en nuestro día a día. Buscamos una mejora física no solo exterior, sino también a nivel motriz.</p>
+    <p>El ejercicio físico debe ser divertido y motivador, no tedioso ni por obligación. Ahí es donde entra nuestra labor.</p>
+]]></string>
+
+
+    <string name="agenda_actividades">Agenda Actividades</string>
+    <string name="direcci_n_c_ram_n_y_cajal_12_centro_33205_gij_n_asturias_n_tel_fono_985_09_33_93">📍 Dirección: C. Ramón y Cajal, 12, Centro, 33205 Gijón, Asturias\n📞 Teléfono: 985 09 33 93</string>
+    <string name="direcci_n_c_ram_n_y_cajal_12_centro_33205_gij_n_asturias">📍 Dirección: C. Ramón y Cajal, 12, Centro, 33205 Gijón, Asturias</string>
+    <string name="tel_fono_985_09_33_93">📞 Teléfono: 985 09 33 93</string>
+    <string name="informaci_n_de_contacto">Información de contacto</string>
+    <string name="agenda">Agenda</string>
+    <string name="icono_ayuda">Icono ayuda</string>
+    <string name="c_mo_reservar_en_una_actividad">¿Cómo reservar en una actividad?</string>
+    <string name="tus_datos_se_almacenan_conforme_a_la_normativa_vigente_lopdgdd">Tus datos se almacenan conforme a la normativa vigente (LOPDGDD).</string>
+    <string name="nombre">Nombre</string>
+    <string name="mi_perfil">Mi Perfil</string>
+    <string name="nivel_de_experiencia">Nivel de experiencia</string>
+    <string name="aceptado">Aceptado</string>
+    <string name="gestionar_actividades">Gestionar Actividades</string>
+    <string name="gestionar_usuarios">Gestionar Usuarios</string>
+    <string name="gestionar_reservas">Gestionar Reservas</string>
+    <string name="ver_historial_de_cambios">Ver Historial de Cambios</string>
+    <string name="borrar">Borrar</string>
+    <string name="d_a_y_hora">Día y hora</string>
+    <string name="nombre_de_la_actividad">Nombre de la actividad</string>
+    <string name="a_adir_nuevo_usuario">Añadir nuevo usuario</string>
+    <string name="icono_actividad">Icono actividad</string>
+    <string name="actividad">Actividad</string>
+    <string name="tipo">Tipo</string>
+    <string name="ma_ana">Mañana</string>
+    <string name="tarde">Tarde</string>
+    <string name="salir_de_la_app">Salir de la app</string>
+    <string name="asgard_gym">Asgard Gym</string>
+    <string name="a_adir_nueva_actividad">Añadir nueva actividad</string>
+    <string name="duraci_n">Duración:</string>
+    <string name="plazas_disponibles">Plazas Disponibles:</string>
+    <string name="monitor">Monitor:</string>
+    <string name="abrir_men">Abrir menú</string>
+    <string name="salir">Salir</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="ver_agenda">VER AGENDA</string>
+    <string name="nuestra_filosof_a">Nuestra filosofía</string>
+    <string name="horario">Horario</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="dni">DNI</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="c_digo_postal">Código Postal</string>
+    <string name="enfermedades_y_lesiones_opcional">Enfermedades y lesiones (opcional)</string>
+    <string name="acepta_protecci_n_de_datos">Acepta protección de datos</string>
+    <string name="es_administrador">Es administrador</string>
+    <string name="consentimiento_de_datos_personales">Consentimiento de datos personales</string>
+    <string name="contacto">CONTACTO</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="nombre_usuario">Nombre Usuario</string>
+
+
+</resources>

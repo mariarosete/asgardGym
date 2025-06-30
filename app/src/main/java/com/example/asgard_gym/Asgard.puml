@@ -1,0 +1,52 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+package com.example.asgard_gym {
+
+    class DTOUsuario {
+        - idUsuario : Int
+        - nombre : String
+        - apellidos: String
+        - DNI: String
+        - fechaNacimiento: String
+        - correo : String
+        - codigoPostal: String
+        - aceptacionDatos: Boolean
+
+    }
+
+    class DTOActividad {
+        - idActividad : Int
+        - nombre : String
+        - tipo : String
+        - descripcion : String
+        - horario : String
+        - instructor : String
+        - duracion : String
+        - imagen : Int
+        - diaSemana : String
+        - plazasDisponibles : Int
+    }
+
+    class DTOReserva {
+        - idReserva : Int
+        - idActividad : Int
+        - idUsuario : Int
+        - fechaClase : String
+        - fecha : String
+        - hora : String
+    }
+
+    class DTOHistoricoReserva {
+        - idHistorico : Int
+        - fechaModificacion : String
+        - valorNuevo : String
+        - accion : String
+        - idReserva : Int
+    }
+
+    DTOUsuario "1" --> "0..*" DTOReserva : realiza
+    DTOActividad "1" --> "0..*" DTOReserva : reservaDe
+    DTOReserva "1" --> "0..*" DTOHistoricoReserva : genera
+}
+@enduml

@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="6dp"
+    android:gravity="center_vertical">
+
+    <!-- Imagen-->
+    <ImageView
+        android:id="@+id/imgActividad"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/imagen_actividad" />
+
+    <!-- Textos -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_de_la_actividad"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHorario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/d_a_y_hora"
+            android:textSize="14sp"
+            android:textColor="#777777" />
+    </LinearLayout>
+
+    <!-- Botón editar -->
+    <ImageButton
+        android:id="@+id/btnEditar"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/editar"
+        android:src="@drawable/editar_admin" />
+
+    <!-- Botón borrar -->
+    <ImageButton
+        android:id="@+id/btnBorrar"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="4dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/borrar"
+        android:src="@drawable/borrar_admin" />
+</LinearLayout>

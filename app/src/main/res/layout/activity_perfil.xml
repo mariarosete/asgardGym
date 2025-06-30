@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- Toolbar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tbMenu"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title=""
+            app:titleTextColor="@android:color/white"
+            app:menu="@menu/menu_principal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:baselineAligned="false">
+
+                <!-- Logo -->
+                <ImageView
+                    android:id="@+id/logoInicio"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/logo"
+                    android:contentDescription="@string/logo" />
+
+                <!-- Texto ASGARD GYM -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/asgard_gym"
+                    android:contentDescription="Asgard Gym" />
+
+                <!-- Espaciador -->
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <!-- Icono usuario -->
+                <ImageButton
+                    android:id="@+id/btnUsuario"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@null"
+                    android:src="@drawable/usuario"
+                    android:contentDescription="@string/mi_perfil" />
+
+                <!-- Icono ayuda -->
+                <ImageButton
+                    android:id="@+id/btnAyuda"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@null"
+                    android:src="@drawable/ayuda"
+                    android:contentDescription="@string/ayuda" />
+
+                <!-- Botón hamburguesa -->
+                <ImageButton
+                    android:id="@+id/btnMenu"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@null"
+                    android:src="@drawable/baseline_menu_24"
+                    android:contentDescription="Abrir menú" />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Tarjeta del perfil -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_card"
+                android:padding="20dp"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp"
+                android:clipToOutline="true">
+
+                <!-- Cabecera con imagen y título -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="16dp">
+
+                    <!-- Foto circular -->
+                    <FrameLayout
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_marginEnd="12dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/perfil"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/circle_user"
+                            android:contentDescription="@string/foto_de_perfil" />
+                    </FrameLayout>
+
+                    <!-- Contenedor para centrar el título y mantener el botón a la derecha -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/tituloPerfil"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/mi_perfil"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+                            android:textColor="#333" />
+
+                        <ImageButton
+                            android:id="@+id/btnEditar"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="center"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:src="@drawable/editar"
+                            android:contentDescription="@string/editar_perfil" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Nombre (no editable) -->
+                <TextView android:text="@string/nombre" style="@style/Label" />
+                <EditText
+                    android:id="@+id/etNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:background="@android:color/transparent"
+                    android:textColor="#000000" />
+
+                <!-- Apellidos (no editable) -->
+                <TextView android:text="@string/apellidos" style="@style/Label" />
+                <EditText
+                    android:id="@+id/etApellidos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:background="@android:color/transparent"
+                    android:textColor="#000000" />
+
+                <!-- DNI (no editable) -->
+                <TextView android:text="DNI" style="@style/Label" />
+                <EditText
+                    android:id="@+id/etDni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:background="@android:color/transparent"
+                    android:textColor="#000000" />
+
+                <!-- Fecha de nacimiento (no editable) -->
+                <TextView android:text="@string/fecha_de_nacimiento" style="@style/Label" />
+                <EditText
+                    android:id="@+id/etFechaNacimiento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:background="@android:color/transparent"
+                    android:textColor="#000000" />
+
+                <!-- Correo (no editable) -->
+                <TextView android:text="@string/correo_electr_nico" style="@style/Label" />
+                <EditText
+                    android:id="@+id/etCorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:background="@android:color/transparent"
+                    android:textColor="#000000" />
+
+                <!-- Código Postal (editable) -->
+                <TextView android:text="@string/c_digo_postal" style="@style/Label" />
+                <EditText
+                    android:id="@+id/etCodigoPostal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:background="@android:color/transparent"
+                    android:textColor="#000000" />
+
+
+                <!-- Consentimiento de datos personales -->
+                <TextView android:text="@string/consentimiento_de_datos_personales" style="@style/Label" />
+
+                <CheckBox
+                    android:id="@+id/cbAceptacionDatos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/aceptado" />
+
+                <!-- Nota informativa -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tus_datos_se_almacenan_conforme_a_la_normativa_vigente_lopdgdd"
+                    android:textSize="12sp"
+                    android:textColor="#777777"
+                    android:layout_marginTop="4dp" />
+
+                <!-- Botón guardar -->
+                <Button
+                    android:id="@+id/btnGuardar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GUARDAR"
+                    android:layout_marginTop="16dp"
+                    android:enabled="false"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <!-- Tarjeta resumen de actividad -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_card"
+                android:elevation="4dp"
+                android:padding="16dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical">
+
+                <!-- Icono -->
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/resumen"
+                    android:contentDescription="@string/icono_resumen"
+                    android:layout_marginEnd="12dp" />
+
+                <!-- Contenido de texto -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <!-- Título -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/resumen_de_actividad"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_marginBottom="4dp" />
+
+                    <!-- Contenido resumen -->
+                    <TextView
+                        android:id="@+id/tvResumen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reservas_realizadas_0"
+                        android:textSize="15sp"
+                        android:textColor="#444444" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
