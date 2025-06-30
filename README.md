@@ -79,7 +79,7 @@ Puedes acceder con los siguientes usuarios precargados:
 
 ---
 
-## 📱 Capturas de pantalla
+## 📸 Capturas de pantalla
 
 ### 🔐 Iniciar sesión
 ![InicioSesion](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Login.png?raw=true)  
@@ -119,7 +119,7 @@ Puedes acceder con los siguientes usuarios precargados:
 
 ---
 
-## 🌐 Próximas mejoras
+## 🔮 Próximas mejoras
 
 - Sincronización de datos mediante API REST.
 - Panel de administración en la nube.
