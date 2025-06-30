@@ -81,6 +81,9 @@ Puedes acceder con los siguientes usuarios precargados:
 
 ## 📱 Capturas de pantalla
 
+### 🏋️ Iniciar sesión
+![InicioSesion](https://github.com/mariarosete/asgardGym/blob/main/screenshots/login.png?raw=true)  
+
 ### 🏋️ Inicio y navegación  
 ![Inicio](https://github.com/mariarosete/asgardGym/blob/main/screenshots/01_inicio.png?raw=true)  
 ![Menú](https://github.com/mariarosete/asgardGym/blob/main/screenshots/02_menu.png?raw=true)
