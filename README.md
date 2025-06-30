@@ -58,9 +58,7 @@ git clone https://github.com/mariarosete/asgardGym.git
 También puedes instalar la aplicación directamente desde el archivo `.apk` incluido en el repositorio, sin necesidad de compilarla.
 
 📁 El archivo se encuentra en la carpeta:  
-```
-APK/asgard_gym.apk
-```
+[`APK/app-debug.apk`](https://github.com/mariarosete/asgardGym/blob/main/appAsgardGym/APK/app-debug.apk?raw=true)
 
 Solo necesitas transferirlo a tu dispositivo Android y ejecutarlo para instalar la app (puede requerir activar "orígenes desconocidos").
 
