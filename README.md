@@ -101,9 +101,8 @@ Puedes acceder con los siguientes usuarios precargados:
 | 👤 Panel de administración | 📜 Histórico |
 |----------------------------|--------------|
 | ![Admin](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Panel_Admin.png?raw=true) | ![Histórico](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Historico.png?raw=true) |
-| ![Crud](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Crud_Actividades.png?raw=true) | |
-| ![Actividad](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Actividad.png?raw=true) | |
-| ![Crear usuario](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Crear_Usuario.png?raw=true) | |
+| ![Crud](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Crud_Actividades.png?raw=true) | ![Actividad](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Actividad.png?raw=true)
+| ![Actividad](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Actividad.png?raw=true) | ![Crear usuario](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Crear_Usuario.png?raw=true)
 
 ## 🔮 Próximas mejoras
 
