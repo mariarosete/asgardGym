@@ -104,6 +104,8 @@ Puedes acceder con los siguientes usuarios precargados:
 | ![Crud](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Crud_Actividades.png?raw=true) | ![Actividad](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Actividad.png?raw=true)
 | ![Actividad](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Actividad.png?raw=true) | ![Crear usuario](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Crear_Usuario.png?raw=true)
 
+---
+
 ## 🔮 Próximas mejoras
 
 - Sincronización de datos mediante API REST.
