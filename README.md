@@ -18,9 +18,11 @@
 - [📩 Contacto](#-contacto)
 
 ---
+
 ## 🛠 Tecnologías utilizadas
 
-Kotlin · Android Studio · SQLite · Material Design · GitHub
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Material Design](https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white)
+
 
 ---
 
