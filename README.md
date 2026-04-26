@@ -10,7 +10,7 @@ Implementa sistema de reservas, gestión de usuarios y horarios, persistencia de
 
 Puedes ver el funcionamiento de la aplicación aquí:
 
-👉 http://localhost:5173/src/assets/AsgardGym.mp4
+👉 https://mariarosete.vercel.app/assets/AsgardGym-DimlY--h.mp4
 
 ---
 
