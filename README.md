@@ -2,8 +2,8 @@
 
 ![Banner Asgard](https://github.com/mariarosete/asgardGym/blob/main/bannerAsgard.png?raw=true)
 
-**Asgard Gym** es una aplicación Android desarrollada para mejorar la experiencia de gestión en centros deportivos. Permite a los usuarios consultar y reservar actividades fácilmente, mientras el personal puede gestionar usuarios y actividades de forma eficiente.
-
+**Asgard Gym** es una aplicación móvil Android desarrollada en Kotlin para la gestión de centros deportivos. 
+Implementa sistema de reservas, gestión de usuarios y horarios, persistencia de datos con SQLite y diseño basado en Material Design.
 ---
 
 ## 🎥 Demo en vídeo
