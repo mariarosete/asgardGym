@@ -9,52 +9,21 @@ Incluye:
 - Gestión de usuarios y horarios
 - Persistencia de datos con SQLite
 - Diseño basado en Material Design
+
 ---
 
 ## 🎥 Demo en vídeo
-
-Puedes ver el funcionamiento de la aplicación aquí:
 
 👉 https://mariarosete.vercel.app/assets/AsgardGym-DimlY--h.mp4
 
 ---
 
-## 📑 Tabla de contenidos
-
-- [🎥 Demo en vídeo](#-demo-en-vídeo)
-- [🛠 Tecnologías utilizadas](#-tecnologías-utilizadas)
-- [🚀 Funcionalidades destacadas](#-funcionalidades-destacadas)
-- [💻 Cómo ejecutar el proyecto](#-cómo-ejecutar-el-proyecto)
-- [📦 Instalación directa (APK)](#-instalación-directa-apk)
-- [🔐 Inicio de sesión de prueba](#-inicio-de-sesión-de-prueba)
-- [📸 Capturas de pantalla](#-capturas-de-pantalla)
-- [🔮 Próximas mejoras](#-próximas-mejoras)
-- [📩 Contacto](#-contacto)
-
----
-
 ## 🛠 Tecnologías utilizadas
 
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Material Design](https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white)
-
-
----
-
-## 🚀 Funcionalidades destacadas
-
-### 👤 Para usuarios del gimnasio:
-
-- **Inicio de sesión rápido** mediante DNI y correo electrónico.
-- **Agenda semanal visual** con navegación por semanas, colores por tipo de actividad y filtros por nombre, monitor o tipo.
-- **Reserva de actividades en tiempo real** con validaciones automáticas.
-- **Consulta y cancelación de reservas activas**, con actualización automática de plazas.
-- **Perfil personal editable**, incluyendo estadísticas (número de reservas y última fecha).
-
-### 🧑‍💼 Para personal del gimnasio (panel administración):
-
-- Gestión de usuarios: alta, edición y baja.
-- Administración de actividades: creación, edición, eliminación y asignación de plazas.
-- Registro histórico de reservas mediante triggers automáticos.
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)  
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)  
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)  
+![Material Design](https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white)
 
 ---
 
@@ -68,40 +37,55 @@ git clone https://github.com/mariarosete/asgardGym.git
 
 ### 2. Abrir en Android Studio
 
-1. Abre Android Studio y selecciona **File > Open**.
-2. Navega hasta la carpeta del proyecto y ábrela.
-3. Espera a que Gradle sincronice automáticamente.
+1. Abre Android Studio  
+2. Selecciona **File > Open**  
+3. Navega hasta la carpeta del proyecto  
+4. Espera a que Gradle sincronice automáticamente  
 
 ### 3. Ejecutar la aplicación
 
-- Conecta un dispositivo Android o inicia un emulador.
-- Haz clic en ▶️ (Run).
-- La app se instalará y ejecutará automáticamente.
+- Conecta un dispositivo Android o inicia un emulador  
+- Pulsa ▶️ **Run**  
+- La app se instalará y ejecutará automáticamente  
 
-📌 **Nota**: Si no aparecen datos precargados, incrementa la constante `DATABASE_VERSION` en la clase `DatabaseHelper` para forzar la reinicialización de la base de datos.
+📌 **Nota:**  
+Si no aparecen datos precargados, incrementa la constante `DATABASE_VERSION` en la clase `DatabaseHelper`.
 
 ---
-### 📦 Instalación directa (APK)
 
-También puedes instalar la aplicación sin compilarla, descargando directamente el archivo `.apk`:
+## 📦 Instalación directa (APK)
 
-📥 **[Descargar Asgard Gym (APK)](https://github.com/mariarosete/asgardGym/raw/main/appAsgardGym/APK/app-debug.apk)**
+📥 **[Descargar APK](https://github.com/mariarosete/asgardGym/raw/main/appAsgardGym/APK/app-debug.apk)**  
 
-🔸 El archivo está en la ruta: `appAsgardGym/APK/app-debug.apk`  
-🔸 Solo necesitas transferirlo a tu dispositivo Android y abrirlo para instalar.  
-🔸 Puede ser necesario habilitar la opción **"Instalar apps de orígenes desconocidos"** en tu móvil.
+- Ruta: `appAsgardGym/APK/app-debug.apk`  
+- Puede ser necesario activar la opción **"Instalar apps de orígenes desconocidos"** en el dispositivo  
+
+---
+
+## 🚀 Funcionalidades destacadas
+
+### 👤 Usuario
+
+- Reservas en tiempo real  
+- Agenda semanal  
+- Gestión de perfil  
+
+### 🧑‍💼 Administración
+
+- CRUD de usuarios  
+- Gestión de actividades  
+- Histórico de reservas  
 
 ---
 
 ## 🔐 Inicio de sesión de prueba
 
-Puedes acceder con los siguientes usuarios precargados:
+| DNI         | Email                |
+|-------------|---------------------|
+| 12345678A   | admin@asgardgym.com |
+| 12345678B   | maria@email.com     |
 
-| DNI         | Correo electrónico         |
-|-------------|----------------------------|
-| 12345678A   | admin@asgardgym.com        |
-| 12345678B   | maria@email.com            |
-
+---
 > No se requiere contraseña.
 
 ---
