@@ -62,7 +62,7 @@ Si no aparecen datos precargados, incrementa la constante `DATABASE_VERSION` en 
 
 ---
 
-## 🚀 Funcionalidades destacadas
+## Funcionalidades destacadas
 
 ### 👤 Usuario
 
@@ -92,25 +92,25 @@ Si no aparecen datos precargados, incrementa la constante `DATABASE_VERSION` en 
 
 ## 📸 Capturas de pantalla
 
-| 🔐 Iniciar sesión | 🏋️ Inicio y navegación |
+| Iniciar sesión | Inicio y navegación |
 |-------------------|------------------------|
 | ![Login](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Login.png?raw=true) | ![Inicio](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Pantalla_Principal.png?raw=true) |
 
-| 📅 Agenda de actividades | 🔎 Filtrado de actividades |
+| Agenda de actividades | Filtrado de actividades |
 |--------------------------|----------------------------|
 | ![Agenda](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Agenda.png?raw=true) | ![Filtro](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Filtro.png?raw=true) |
 | ![Actividades](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Agenda_Actividades.png?raw=true) | |
 
-| 📋 Detalles y reservas | 📚 Mis reservas |
+| Detalles y reservas |  Mis reservas |
 |------------------------|-----------------|
 | ![Detalles](https://github.com/mariarosete/asgardGym/blob/main/screenshots/DEtalles.png?raw=true) | ![Reservas](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Reservas.png?raw=true) |
 
-| 👤 Perfil de usuario | ❓ Ayuda |
+|  Perfil de usuario |  Ayuda |
 |----------------------|---------|
 | ![Usuario](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Usuario.png?raw=true) | ![Ayuda](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Ayuda.png?raw=true) |
 | ![Detalles usuario](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Detalles_Usuario.png?raw=true) | |
 
-| 👤 Panel de administración | 📜 Histórico |
+|  Panel de administración |  Histórico |
 |----------------------------|--------------|
 | ![Admin](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Panel_Admin.png?raw=true) | ![Histórico](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Historico.png?raw=true) |
 | ![Crud](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Crud_Actividades.png?raw=true) | ![Actividad](https://github.com/mariarosete/asgardGym/blob/main/screenshots/Actividad.png?raw=true)
@@ -118,7 +118,7 @@ Si no aparecen datos precargados, incrementa la constante `DATABASE_VERSION` en 
 
 ---
 
-## 🔮 Próximas mejoras
+##  Próximas mejoras
 
 - Sincronización de datos mediante API REST.
 - Panel de administración en la nube.
